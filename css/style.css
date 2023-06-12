@@ -1,65 +1,65 @@
-
-
 /* home */
 
 #hero {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 #foto img {
-    transition: .4s;
-    width: 400px;
+  transition: 0.4s;
+  width: 400px;
 }
 #name {
-    font-size: 2.5rem;
-    margin: 70px 0 10px 0;
+  font-size: 2.5rem;
+  margin: 70px 0 10px 0;
 }
 #name span {
-    color: blue;
+  color: blue;
 }
 #job {
-    color: blue;
-    margin-bottom: 70px;
+  color: blue;
+  margin-bottom: 70px;
 }
 .intro p {
-    font-size: 22px;
-    color: blue;
-    font-weight: 600;
+  font-size: 22px;
+  color: blue;
+  font-weight: 600;
 }
 .intro p span {
-    font-size: 24px;
-    color: orange;
-    font-weight: 600;
+  font-size: 24px;
+  color: orange;
+  font-weight: 600;
 }
 #foto img:hover {
-    filter: drop-shadow(10px 10px 10px rgb(64, 58, 58));
+  filter: drop-shadow(10px 10px 10px rgb(64, 58, 58));
 }
-#btn-git{
-    transition: .3s;
+#btn-git {
+  transition: 0.3s;
 }
 #btn-git:hover {
-    width: 160px;
-    letter-spacing: 1px;
-    box-shadow: 3px 3px 7px rgb(64, 58, 58);
+  width: 160px;
+  letter-spacing: 1px;
+  box-shadow: 3px 3px 7px rgb(64, 58, 58);
 }
 @media screen and (max-width: 576px) {
-    .container {
-        max-width: 90vw;
-    }
-    nav img {
-        width: 60px;
-    }
-    #foto img {
-        width: 240px;
-    }
-    #hero {
-        padding-top: 50px;
-    }
-    #name, #job, #social-media {
-        text-align: center;
-    }
-    #job {
-        margin-bottom: 10px;
-    }
+  .container {
+    max-width: 90vw;
+  }
+  nav img {
+    width: 60px;
+  }
+  #foto img {
+    width: 240px;
+  }
+  #hero {
+    padding-top: 50px;
+  }
+  #name,
+  #job,
+  #social-media {
+    text-align: center;
+  }
+  #job {
+    margin-bottom: 10px;
+  }
 }
 
 /* /home */
@@ -67,30 +67,30 @@
 /* about */
 
 #about {
-    background-color: #2F318B;
+  background-color: #2f318b;
 }
 #text-about {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 #skills {
-    background-color: white;
-    border-color: #0079FF;
-    height: 550px;
+  background-color: white;
+  border-color: #0079ff;
+  height: 550px;
 }
 #col-skills {
-    text-align: left;
+  text-align: left;
 }
 
 @media screen and (max-width: 576px) {
-    #text-about {
-        font-size: 1rem;
-    }
-    .text-skills {
-        font-size: 1rem;
-    }
-    #skills {
-        height: 500px;
-    }
+  #text-about {
+    font-size: 1rem;
+  }
+  .text-skills {
+    font-size: 1rem;
+  }
+  #skills {
+    height: 500px;
+  }
 }
 
 /* /about */
@@ -98,81 +98,86 @@
 /* project */
 
 #project {
-    background-color: #2F318B;
+  background-color: #2f318b;
 }
 .card-text {
-    color: ;
+  color: ;
 }
 #card-shadow {
-    box-shadow: 10px 10px 15px rgb(7, 7, 74);
+  box-shadow: 10px 10px 15px rgb(7, 7, 74);
 }
 @media screen and (max-width: 576px) {
-    #card-project {
-        width: 85%;
-    }
-    #text-card {
-        font-size: .7rem;
-    }
+  #card-project {
+    width: 85%;
+  }
+  #text-card {
+    font-size: 0.7rem;
+  }
 }
 /* /project */
 
 /* contact */
 #title-contact {
-    color: blue;
-    font-size: 3.5rem;
-    font-weight: 600;
+  color: blue;
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 #title-contact span {
-    color: orange;
+  color: orange;
 }
 #form-contact {
-    width: 800px;
+  width: 800px;
 }
 #form-contact label {
-    font-size: 1.5rem;
-    color: blue;
+  font-size: 1.5rem;
+  color: blue;
 }
 #form-contact input {
-    height: 50px;
+  height: 50px;
 }
-#form-contact input, #form-contact textarea {
-    border-color: blue;
-    border-radius: 15px;
+#form-contact input,
+#form-contact textarea {
+  border-color: blue;
+  border-radius: 15px;
 }
 #form-contact button {
-    text-align: center;
+  text-align: center;
 }
-@media screen and (max-width: 576px)  {
-    #title-contact {
-        font-size: 2rem;
-    }
-    #form-contact {
-        width: 500px;
-    }
-    #form-contact label {
-        font-size: 1rem;
-        color: blue;
-    }
-    #form-contact input {
-        height: 40px;
-    }
-    #form-contact input, #form-contact textarea {
-        border-radius: 10px;
-    }
+.my-alert {
+  width: 800px;
+}
+@media screen and (max-width: 576px) {
+  #title-contact {
+    font-size: 2rem;
+  }
+  #form-contact {
+    width: 500px;
+  }
+  #form-contact label {
+    font-size: 1rem;
+    color: blue;
+  }
+  #form-contact input {
+    height: 40px;
+  }
+  #form-contact input,
+  #form-contact textarea {
+    border-radius: 10px;
+  }
 }
 
 /* /contact */
 
 /* footer */
 #text-footer {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 @media screen and (max-width: 576px) {
-    #text-footer {
-        font-size: 1rem;
-    }
-    #text-copyright {
-        font-size: .7rem;
-    }
+  #text-footer {
+    font-size: 1rem;
+  }
+  #text-copyright {
+    font-size: 0.7rem;
+  }
 }
 /* /footer */
