@@ -4,17 +4,17 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio!</title>
-    <link rel="icon" href="img/heart-solid.svg">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bo.css">
-    <link rel="stylesheet" href="css/bootstrap.css.map">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/af6998ec72.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="img/heart-solid.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bo.css" />
+    <link rel="stylesheet" href="css/bootstrap.css.map" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Poppins:wght@300&display=swap" rel="stylesheet" />
   </head>
-  <body">
-
+  <body>
     <!-- nav -->
     <nav class="navbar navbar-expand-lg mx-auto">
       <div class="container">
@@ -46,34 +46,39 @@
     <section id="hero">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-center" id="foto">
-            <img src="img/head1.png" alt="">
+          <div class="col-md-6 text-center" id="foto" data-aos="fade" data-aos-duration="1500">
+            <img src="img/head1.png" alt="" />
           </div>
-          <div class="col-md-6 d-flex justify-content-center">
+          <div class="col-md-6 d-flex justify-content-center" data-aos="fade-up">
             <div class="row-cols-1">
               <div class="col-12" id="name">
-                <span>Hi, I Am</span><br>
+                <span>Hi, I Am</span><br />
                 Abyan Aufa Alif Musyaffa
               </div>
               <div class="col-12" id="job">
                 <div class="intro">
-                <p>I Am
-                  <span class="typing-text"></span></p>
+                  <p>I Am <span class="typing-text"></span></p>
                 </div>
               </div>
               <div class="col-12 mb-5" id="social-media">
-                <a href="https://www.linkedin.com/in/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-linkedin fa-2xl" style="color: #8f51cd;"></i></a>
-                <a href="https://github.com/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-github fa-2xl" style="color: #8f51cd;"></i></a>
-                <a href="https://www.instagram.com/abyanaufaalifmusyaffa" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #8f51cd;"></i></a>
+                <a href="https://www.linkedin.com/in/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-linkedin fa-2xl" style="color: #8f51cd"></i></a>
+                <a href="https://github.com/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-github fa-2xl" style="color: #8f51cd"></i></a>
+                <a href="https://www.instagram.com/abyanaufaalifmusyaffa" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: #8f51cd"></i></a>
               </div>
               <div class="col-12" id="job">
-                <a id="btn-git" class="btn text-white rounded-4" style="background-color: #2F318B; border: none;" href="#contact" role="button">Get In Touch <i class="fa-solid fa-hand-peace" style="color: white;"></i></a>
+                <a id="btn-git" class="btn text-white rounded-4" style="background-color: #2f318b; border: none" href="#contact" role="button">Get In Touch <i class="fa-solid fa-hand-peace" style="color: white"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg id="atas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2F318B" fill-opacity="1" d="M0,64L48,69.3C96,75,192,85,288,101.3C384,117,480,139,576,133.3C672,128,768,96,864,85.3C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg id="atas" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#2F318B"
+          fill-opacity="1"
+          d="M0,64L48,69.3C96,75,192,85,288,101.3C384,117,480,139,576,133.3C672,128,768,96,864,85.3C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- /hero -->
 
@@ -81,58 +86,62 @@
     <section id="about">
       <div class="container">
         <div class="row">
-          <div class="col text-center d-flex justify-content-center align-items-center column-gap-4 mb-5 mt-3">
-            <i class="fa-solid fa-address-card fa-2x" style="color: #ffffff;"></i>
+          <div class="col text-center d-flex justify-content-center align-items-center column-gap-4 mb-5 mt-3" data-aos="fade" data-aos-duration="1500">
+            <i class="fa-solid fa-address-card fa-2x" style="color: #ffffff"></i>
             <h1 class="text-white">About Me</h1>
           </div>
         </div>
         <div class="row justify-content-between align-items-center column-gap-5">
-          <div class="col-md-5 text-center text-white mb-5">
-            <h2>I Am Byan <i class="fa-solid fa-face-smile-wink" style="color: #64db24;"></i></h2>
-            <br>
-            <p id="text-about">Now, I'm 19 years old. I am based in Ngawi, East Java, Indonesia. I'm graduated from vocational high school majoring in Network and Computer Engineering. Now studying at Amikom Yogyakarta University majoring in Informatics Engineering. I'm very passionate about improving my coding skills, Graphics Design & developing websites. I'm working for myself and freelance to improve my skills. I like creating interactive websites.</p><br>
-            <a class="btn btn-outline-primary btn-lg" target="_blank" id="download-cv" href="file/Resume.pdf" role="button">Download CV</a>
+          <div class="col-md-5 text-center text-white mb-5" data-aos="fade-right" data-aos-duration="1500" data-aos-offset="400">
+            <h2>I Am Byan <i class="fa-solid fa-face-smile-wink" style="color: #64db24"></i></h2>
+            <br />
+            <p id="text-about">
+              Now, I'm 19 years old. I am based in Sleman, Indonesia. I'm graduated from vocational high school majoring in Computer and Network Engineering. Now studying at Amikom Yogyakarta University majoring in Informatics Engineering.
+              I'm very passionate about improving my coding skills, graphics design & developing websites. I'm working for myself and freelance to improve my skills. I like creating interactive websites.
+            </p>
+            <br />
+            <a class="btn btn-outline-primary btn-lg" target="_blank" id="download-cv" href="https://drive.google.com/file/d/1AzIADnf_BZEooubuQ_ZzQV6V-ivi7bKp/view?usp=sharing" role="button">Download CV</a>
           </div>
-          <div class="col-md-5 mb-5">
+          <div class="col-md-5 mb-5" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="400">
             <div class="row-cols-1 border rounded-5 border-5 d-flex flex-column row-gap-4 align-items-center text-center" id="skills">
               <div class="col-10 d-flex justify-content-center align-items-center column-gap-3 mt-3">
-                <i class="fa-solid fa-sliders fa-lg" style="color: #000000;"></i>
+                <i class="fa-solid fa-sliders fa-lg" style="color: #000000"></i>
                 <h3>My Skills</h3>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">HTML & CSS</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%; background-color: orange;">90%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 90%; background-color: orange">90%</div>
                 </div>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">JavaScript</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%; background-color: green; ">70%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 70%; background-color: green">70%</div>
                 </div>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">Figma</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%; background-color: rgb(33, 33, 130);">85%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 85%; background-color: rgb(33, 33, 130)">85%</div>
                 </div>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">CorelDraw</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%; background-color: rgb(187, 187, 34);">95%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 95%; background-color: rgb(187, 187, 34)">95%</div>
                 </div>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">Adobe Photoshop & Illustrator</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%; background-color: rgb(170, 43, 43);">75%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 75%; background-color: rgb(170, 43, 43)">75%</div>
                 </div>
               </div>
               <div class="col-10" id="col-skills">
                 <h5 class="text-skills">Photography & Videography</h5>
                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%; background-color: rgb(54, 54, 141);">80%</div>
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 80%; background-color: rgb(54, 54, 141)">80%</div>
                 </div>
               </div>
             </div>
@@ -146,55 +155,61 @@
     <section id="project">
       <div class="container">
         <div class="row">
-          <div class="col text-center d-flex justify-content-center align-items-center column-gap-4 my-5">
-            <i class="fa-solid fa-square-poll-horizontal fa-2x" style="color: #ffffff;"></i>
+          <div class="col text-center d-flex justify-content-center align-items-center column-gap-4 my-5" data-aos="fade" data-aos-duration="1500">
+            <i class="fa-solid fa-square-poll-horizontal fa-2x" style="color: #ffffff"></i>
             <h1 class="text-white">Project</h1>
           </div>
         </div>
         <div class="row text-center justify-content-center align-items-center gap-4">
           <div class="col-md" id="card-project">
-            <div class="card rounded-4 bg-primary" id="card-shadow">
-              <img src="img/1.jpg" class="card-img-top rounded-4 " alt="...">
+            <div class="card rounded-4 bg-primary" id="card-shadow" data-aos="fade-left" data-aos-duration="1200">
+              <img src="img/1.jpg" class="card-img-top rounded-4" alt="..." />
               <div class="card-body text-white">
                 <h5 class="card-title">Coming Soon!</h5>
                 <p class="card-text" id="text-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn text-white rounded-3" style="background-color: #2F318B;">View <i class="fa-solid fa-code" style="color: #ffffff;"></i></a>
+                <a href="#" class="btn text-white rounded-3" style="background-color: #2f318b">View <i class="fa-solid fa-code" style="color: #ffffff"></i></a>
               </div>
             </div>
           </div>
           <div class="col-md" id="card-project">
-            <div class="card rounded-4 bg-primary" id="card-shadow">
-              <img src="img/2.jpg" class="card-img-top rounded-4" alt="...">
+            <div class="card rounded-4 bg-primary" id="card-shadow" data-aos="fade-right" data-aos-duration="1200">
+              <img src="img/2.jpg" class="card-img-top rounded-4" alt="..." />
               <div class="card-body text-white">
                 <h5 class="card-title">Coming Soon!</h5>
                 <p class="card-text" id="text-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn text-white rounded-3" style="background-color: #2F318B;">View <i class="fa-solid fa-code" style="color: #ffffff;"></i></a>
+                <a href="#" class="btn text-white rounded-3" style="background-color: #2f318b">View <i class="fa-solid fa-code" style="color: #ffffff"></i></a>
               </div>
             </div>
           </div>
           <div class="col-md" id="card-project">
-            <div class="card rounded-4 bg-primary" id="card-shadow">
-              <img src="img/3.jpg" class="card-img-top rounded-4" alt="...">
+            <div class="card rounded-4 bg-primary" id="card-shadow" data-aos="fade-left" data-aos-duration="1200">
+              <img src="img/3.jpg" class="card-img-top rounded-4" alt="..." />
               <div class="card-body text-white">
                 <h5 class="card-title">Coming Soon!</h5>
                 <p class="card-text" id="text-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn text-white rounded-3" style="background-color: #2F318B;">View <i class="fa-solid fa-code" style="color: #ffffff;"></i></a>
+                <a href="#" class="btn text-white rounded-3" style="background-color: #2f318b">View <i class="fa-solid fa-code" style="color: #ffffff"></i></a>
               </div>
             </div>
           </div>
           <div class="col-md" id="card-project">
-            <div class="card rounded-4 bg-primary" id="card-shadow">
-              <img src="img/4.jpg" class="card-img-top rounded-4" alt="...">
+            <div class="card rounded-4 bg-primary" id="card-shadow" data-aos="fade-right" data-aos-duration="1200">
+              <img src="img/4.jpg" class="card-img-top rounded-4" alt="..." />
               <div class="card-body text-white">
                 <h5 class="card-title">Coming Soon!</h5>
                 <p class="card-text" id="text-card">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                <a href="#" class="btn text-white rounded-3" style="background-color: #2F318B;">View <i class="fa-solid fa-code" style="color: #ffffff;"></i></a>
+                <a href="#" class="btn text-white rounded-3" style="background-color: #2f318b">View <i class="fa-solid fa-code" style="color: #ffffff"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <svg id="bawah" class="mt-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,64L48,69.3C96,75,192,85,288,101.3C384,117,480,139,576,133.3C672,128,768,96,864,85.3C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      <svg id="bawah" class="mt-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,64L48,69.3C96,75,192,85,288,101.3C384,117,480,139,576,133.3C672,128,768,96,864,85.3C960,75,1056,85,1152,85.3C1248,85,1344,75,1392,69.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
     </section>
     <!-- /project -->
 
@@ -202,83 +217,87 @@
     <section id="contact" class="pb-5">
       <div class="container">
         <div class="row mb-5 mt-2">
-          <div class="col text-center">
-            <p id="title-contact">Get In <span>Touch </span><i class="fa-solid fa-hand-peace" style="color: blue;"></i></p>
+          <div class="col text-center" data-aos="fade" data-aos-duration="2000">
+            <p id="title-contact">Get In <span>Touch </span><i class="fa-solid fa-hand-peace" style="color: blue"></i></p>
           </div>
         </div>
         <div class="row justify-content-center">
+          <form id="form-contact" name="submit-to-google-sheet" class="mb-5" data-aos="fade-down" data-aos-duration="1500">
+            <div class="alert w-75 d-none mx-auto my-alert alert-success alert-dismissible fade show" role="alert">
+              <strong>Thank you, </strong> i have received your message.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Name</label>
+              <input type="text" class="form-control" id="nama" aria-describedby="emailHelp" name="nama" />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" />
+            </div>
+            <div class="mb-5">
+              <label for="pesan" class="form-label">Message</label>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg d-grid mx-auto btn-kirim" id="send">Send</button>
 
-            <form id="form-contact" name="submit-to-google-sheet" class="mb-5">
-              <div class="alert w-75 d-none mx-auto my-alert alert-success alert-dismissible fade show" role="alert">
-                <strong>Thank you, </strong> i have received your message.
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-              </div>
-              <div class="mb-3">
-                <label for="nama" class="form-label">Name</label>
-                <input type="text" class="form-control" id="nama" aria-describedby="emailHelp" name="nama">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
-              </div>
-              <div class="mb-5">
-                <label for="pesan" class="form-label">Message</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-lg d-grid mx-auto btn-kirim" id="send">Send</button>
-              
-              <button class="btn btn-warning d-none d-grid btn-lg mx-auto btn-loading" type="button" disabled>
-                <span class="spinner-border" role="status" aria-hidden="true"></span>
-              </button>
-            </form>
+            <button class="btn btn-warning d-none d-grid btn-lg mx-auto btn-loading" type="button" disabled>
+              <span class="spinner-border" role="status" aria-hidden="true"></span>
+            </button>
+          </form>
         </div>
       </div>
     </section>
     <!-- /contact -->
 
     <!-- footer -->
-    <footer class="text-center text-white mt-5" style="background-color: #2F318B;">
+    <footer class="text-center text-white mt-5" style="background-color: #2f318b">
       <div class="container p-5 pb-3">
         <section class="mb-4">
-          <a href="https://www.linkedin.com/in/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-linkedin fa-2xl" style="color: white;"></i></a>
-          <a href="https://github.com/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-github fa-2xl" style="color: white;"></i></a>
-          <a href="https://www.instagram.com/abyanaufaalifmusyaffa" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: white;"></i></a>
+          <a href="https://www.linkedin.com/in/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-linkedin fa-2xl" style="color: white"></i></a>
+          <a href="https://github.com/abyanmusyaffa" target="_blank"><i class="fa-brands me-3 fa-github fa-2xl" style="color: white"></i></a>
+          <a href="https://www.instagram.com/abyanaufaalifmusyaffa" target="_blank"><i class="fa-brands fa-square-instagram fa-2xl" style="color: white"></i></a>
         </section>
-        <p class="mb-0" id="text-footer">created with <i class="fa-solid fa-heart" style="color: #ffffff;"></i></p>
+        <p class="mb-0" id="text-footer">created with <i class="fa-solid fa-heart" style="color: #ffffff"></i></p>
       </div>
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);" id="text-copyright">
-        © 2023 Copyright: Abyan Aufa Alif Musyaffa
-      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)" id="text-copyright">© 2023 Copyright: Abyan Aufa Alif Musyaffa</div>
     </footer>
+    <!-- /footer -->
+
     <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
-    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer">
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbzGVTL5yB8TYRml3EZCHT9CnpBtNfUfxIVouWvGQTIR_Y7sxzaqdrrfdG_jXJIJ8xZ0/exec'
-  const form = document.forms['submit-to-google-sheet']
-  const btnKirim = document.querySelector('.btn-kirim');
-  const btnLoading = document.querySelector('.btn-loading');
-  const myAlert = document.querySelector('.my-alert');
+    <script>
+      const scriptURL = "https://script.google.com/macros/s/AKfycbzGVTL5yB8TYRml3EZCHT9CnpBtNfUfxIVouWvGQTIR_Y7sxzaqdrrfdG_jXJIJ8xZ0/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
 
-  form.addEventListener('submit', e => {
-    e.preventDefault();
-    btnLoading.classList.toggle('d-none');
-    btnKirim.classList.toggle('d-none');
-    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => {
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-        myAlert.classList.toggle('d-none');
-        form.reset();
-        console.log('Success!', response)
-      })
-      .catch(error => console.error('Error!', error.message))
-  })
-</script>
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+            form.reset();
+            console.log("Success!", response);
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
 
     <script src="js/boo.js"></script>
     <script src="js/bootstrap.js.map"></script>
